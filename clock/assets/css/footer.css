@@ -1,0 +1,123 @@
+/* footer */
+
+.footer {
+    background-image: url('../images/Rectangle-15.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+/* .footer .row>div:first-child{
+    padding-left: 0;
+}
+
+.footer .row>div:last-child{
+    padding-right: 0;
+} */
+
+.footer h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.footer p {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: justify;
+    margin-bottom: 37px;
+}
+
+.footer-collection ul{
+    padding: 0;
+}
+
+.footer-collection li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 20px;
+    background-color: #0F0F0F;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-collection a{
+    color: #D0D0D0;
+}
+
+.footer-new-sletter button{
+    padding: 10px 20px;
+    background-color: #0F0F0F;
+    border: none;
+    color: #ffffff;
+}
+
+.footer-new-sletter input{
+    padding: 10px 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    width: 100%;
+    min-width: 200px;
+}
+
+.footer-new-sletter input::placeholder{
+    color: #D0D0D0
+}
+
+
+
+/* last-line */
+
+.last-line {
+    height: 50px;
+    background-color: #000000;
+}
+
+.last-line>div {
+    height: 100%;
+}
+
+.last-line>div>div {
+    height: 100%;
+    color: #d0d0d0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* media */
+
+@media (max-width: 1200px){
+    .footer .footer-collection {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-new-sletter form>div{
+        flex-wrap: wrap;
+    }
+
+    .footer-new-sletter form>div>div:last-child{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .footer-new-sletter form>div button{
+        width: 100%;
+    }
+}
+

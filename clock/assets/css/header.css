@@ -1,0 +1,153 @@
+/* top-line */
+
+.top-line {
+    background: #000000;
+    height: 44px;
+}
+
+.top-line>div>div {
+    height: 100%;
+}
+
+.top-line>div {
+    height: 100%;
+}
+
+
+.top-line .top-line-text {
+    color: #969696;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.top-line a {
+    position: relative;
+}
+
+
+.phone-img {
+    margin-left: 25px;
+}
+
+.top-line .phone-img::before {
+    display: inline-block;
+    content: ' ';
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/eva_phone-outline.svg');
+    background-size: cover;
+    height: 13.33px;
+    width: 13.36px;
+    position: absolute;
+    bottom: 0px;
+    left: -25px;
+}
+
+.top-line .come-in-img:before {
+    display: inline-block;
+    content: ' ';
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/ic_sharp-log-in.svg');
+    background-size: cover;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    bottom: 0px;
+    left: -25px;
+}
+
+
+/* second-line */
+
+.second-line {
+    background-color: #0F0F0F;
+}
+
+
+.second-line>div>div {
+    min-height: 80px;
+}
+
+.second-line ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.second-line ul>li {
+    padding: 0 20px
+}
+
+.second-line a {
+    color: #969696;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.second-line>nav {
+    height: 100%;
+}
+
+.second-line nav>ul>li:last-child {
+    padding: 0;
+}
+
+.second-line .icons li:last-child {
+    padding-right: 0;
+}
+
+.second-line nav>ul {
+    height: 100%;
+}
+
+.second-line .hover:hover {
+    background-color: #1F1F1F;
+    color: #ffffff;
+}
+
+.second-line .hover:hover a {
+    color: #ffffff;
+}
+
+
+@media (max-width: 767px) {
+
+    .nav{
+        display: none;
+        z-index: 1;
+        width: 100%;
+        position:fixed;
+        background-color: #0F0F0F;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nav nav {
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    .nav nav>ul {
+        flex-wrap: wrap;
+    }
+    
+    .nav nav>ul>li{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .nav .icons{
+        margin-bottom: 10px;
+    }
+
+    
+}
