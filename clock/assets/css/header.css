@@ -119,35 +119,35 @@
 
 @media (max-width: 767px) {
 
-    .nav{
-        display: none;
+    .nav {
         z-index: 1;
         width: 100%;
-        position:fixed;
+        position: fixed;
         background-color: #0F0F0F;
         left: 0;
         top: 0;
-        width: 100%;
+        width: 0%;
+        overflow: hidden;
         height: 120%;
+        transition-property: width;
+        transition-duration: .2s;
     }
-    
+
     .nav nav {
         width: 100%;
         padding-top: 20px;
     }
-    
+
     .nav nav>ul {
         flex-wrap: wrap;
     }
-    
-    .nav nav>ul>li{
+
+    .nav nav>ul>li {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    
-    .nav .icons{
+
+    .nav .icons {
         margin-bottom: 10px;
     }
-
-    
 }

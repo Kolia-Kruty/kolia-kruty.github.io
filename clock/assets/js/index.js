@@ -1,7 +1,7 @@
 $(".icon-menu-open").click(function(){
-    $(".nav").show()
+    $(".nav").width("100%")
 })
 
 $(".icon-menu-close").click(function(){
-    $(".nav").hide()
+    $(".nav").width(0)
 })
