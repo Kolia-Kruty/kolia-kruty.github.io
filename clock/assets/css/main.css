@@ -162,7 +162,7 @@
 
 .new-goods {
     width: 100%;
-    min-height: 1289px;
+    min-height: 800px;
     background-color: #000000;
 }
 
@@ -213,6 +213,14 @@
     font-size: 16px;
     margin-top: 10px;
     margin-bottom: 0;
+}
+
+.slider-cards {
+    padding-top: 81px;
+}
+
+.slider-cards .card-clock{
+    margin: auto;
 }
 
 @media (max-width: 768px) {
