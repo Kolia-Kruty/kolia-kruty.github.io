@@ -1,0 +1,34 @@
+.menu {
+    width: 0;
+    height: 100%;
+    background-color: #333333;
+    overflow: hidden;
+    transition-property: width;
+    transition-duration: .2s;
+}
+
+.menu>div {
+    padding: 30px;
+}
+
+.menu_text a{
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.menu_text>div{
+    margin-bottom: 35px;
+}
+
+.menu_icons >div{
+    margin: 20px;
+}
+
+

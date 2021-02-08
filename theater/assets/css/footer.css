@@ -1,0 +1,15 @@
+footer div {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+}
+
+footer>div>div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #565656;
+
+}

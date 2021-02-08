@@ -1,0 +1,357 @@
+.main_block_padding_top {
+    padding-top: 150px;
+}
+
+@media (max-width: 991px) {
+    .main_block_padding_top {
+        padding-top: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .main_block_padding_top {
+        padding-top: 80px;
+    }
+}
+
+
+/* first_screen */
+
+.first_screen {
+    padding-top: 260px;
+    min-height: 1045px;
+    background-image: url('../images/first-screen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first_screen_info h1 {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 87px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.first_screen_info p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    max-width: 540px;
+}
+
+.first_screen_info a {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #D1A954;
+    padding: 10px 40px;
+}
+
+
+
+/* about */
+
+.about_text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    max-width: 445px;
+}
+
+.about_numbers p {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+@media (max-width: 991px) {
+    .about_text {
+        margin-right: 15px;
+    }
+
+    .about_numbers {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about_text {
+        margin-bottom: 40px;
+        margin-right: 0px;
+    }
+
+    .about_numbers {
+        margin-left: 0px;
+    }
+
+    .about h4 {
+        text-align: center;
+    }
+
+    .about_text p {
+        text-align: center;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .about_block>div {
+        margin: 0 15px;
+    }
+}
+
+/* projects */
+
+.projects {
+    min-height: 550px;
+}
+
+.slider_projects {
+    height: 550px;
+    width: 442;
+}
+
+@media (max-width: 1200px){
+    .projects{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+
+/* rating */
+
+.rating_block {
+    width: 1110px;
+    min-height: 550px;
+    background-image: url("../images/Rectangle28.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.rating_content>div {
+    margin: 0 15px;
+}
+
+.rating_year {
+    text-align: center;
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D1A954;
+}
+
+.rating_stars>div {
+    margin-right: 25px;
+}
+
+.rating_text {
+    margin-top: 25px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #FFFFFF;
+    max-width: 540px;
+}
+
+@media (max-width: 1300px) {
+    .rating_block {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .rating_text {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+/* contacts */
+
+.contacts {
+    margin-bottom: 80px;
+}
+
+.contacts_info {
+    margin-right: 50px;
+}
+
+.contacts_info div {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contacts_info>div>div {
+    padding-bottom: 25px;
+}
+
+.contacts_text {
+    max-width: 390px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+}
+
+.contacts_forms {
+    margin-bottom: 80px;
+}
+
+.contacts_block_form>div{
+    width: 300px;
+}
+
+.contacts_forms button {
+    font-family: "Open Sans Condensed";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    background-color: #D1A954;
+}
+
+.contacts_forms input,
+.contacts_forms textarea {
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.contacts_forms input::placeholder,
+.contacts_forms textarea::placeholder {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #989898;
+}
+
+.contacts_input {
+    margin-right: 20px;
+}
+
+#name,
+#company,
+#tel,
+#email {
+    height: 35px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+#message {
+    padding-top: 10px;
+    height: 110px;
+    width: 100%;
+}
+
+
+@media (max-width: 1399px) {
+    .text_align_right {
+        text-align: right;
+    }
+
+    .contacts_info {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1150px){
+    .contacts_block_form>div{
+        width: 250px;
+    }
+}
+
+@media (max-width: 991px){
+    .contacts_block_form>div{
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .contacts_text {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .contacts_block_form>div{
+        width: 250px;
+    }
+    .contacts_textarea{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .contacts_block_form>div{
+        width: 100%;
+    }
+
+    .contacts_forms{
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .contacts_info>div>div {
+        font-size: 0.6rem;
+        padding-bottom: 15px;
+    }
+}
