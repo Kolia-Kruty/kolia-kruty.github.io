@@ -27,6 +27,10 @@ main>div {
     }
 }
 
+html{
+    min-width: 576px;
+}
+
 .color_gold {
     color: #D1A954;
 }
