@@ -13,7 +13,8 @@ $(document).ready(function () {
 $(document).ready(function () {
     $(".owl-carousel.partner_slider").owlCarousel({
         loop: true,
-        margin: 80
+        autoWidth: true,
+        margin: 80,
     });
 });
 

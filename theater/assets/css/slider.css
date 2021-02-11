@@ -30,11 +30,8 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 25px;
-    /* identical to box height */
-
     letter-spacing: 0.1em;
     text-transform: uppercase;
-
     color: #C4C4C4;
 }
 
@@ -95,6 +92,25 @@
     background-repeat: no-repeat;
 }
 
+
+/* partners */
+
+
+@media (max-width: 515px) {
+    .partner_slider>img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .partner_slider_item {
+        height: 100px;
+        width: 120px;
+    }
+}
+
+
+/* projects */
+
 .projects_slider_item:hover .front_img_search {
     visibility: visible;
 }
@@ -107,7 +123,7 @@
 
     .projects_slider_item,
     .projects_slider_item>div {
-        height: 430px;
-        width: 340px;
+        height: 390px;
+        width: 300px;
     }
 }

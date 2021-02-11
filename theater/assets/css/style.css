@@ -27,9 +27,6 @@ main>div {
     }
 }
 
-html{
-    min-width: 576px;
-}
 
 .color_gold {
     color: #D1A954;
@@ -63,6 +60,6 @@ html{
 @media (max-width: 576px) {
     .title_h3 {
         font-size: 36px;
-        margin-bottom: 70px
+        margin-bottom: 40px
     }
 }
